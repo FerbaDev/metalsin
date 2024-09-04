@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Metalsin</title>
+    <link rel="canonical" href="https://www.metalsin.com.ar" />
+    <meta name="description" content="Fabricamos sinfines de alta calidad para mixers, monotolvas y cosechadoras. Personalización y soporte técnico garantizados.">
+    <meta name="keywords" content="sinfines, sinfines para mixers, sinfines para cosechadoras, sinfines personalizados">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <meta property="og:title" content="Metalsin - Sinfines Personalizados de Alta Calidad" />    
+    <meta property="og:url" content="https://www.metalsin.com.ar" />
+    <meta property="og:image" content="https://res.cloudinary.com/dwl4yy7q6/image/upload/v1725405709/metalsin/sinfin-meta_y7mdcj.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- <img src="./imagenes/logo-tranparente.png" alt=""> -->
+       <h1>METALSIN</h1>
+      <button id="abrir" class="abrir-menu" aria-label="Abrir menú"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar" aria-label="Cerrar menú"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+          <li><a href="#productos" aria-label="Productos">Productos</a></li>
+          <li><a href="#ubicacion" aria-label="ubicacion">Ubicación</a></li>
+          <li><a href="#faq" aria-label="Preguntas frecuentes">Preguntas frecuentes</a></li>
+          <li><a href="#contacto" aria-label="Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="card-presentacion">
+          <h1>Sinfines a Medida para Todas tus Necesidades Agrícolas</h1>
+          <p class="scale-in-hor-left">Calidad y Durabilidad para Mixers, Monotolvas y Cosechadoras</p>
+        </div>
+        <div class="hero-img">
+          <a href="https://wa.me/5493571457431?text=¡Hola!+Quiero+hacer+una+consulta." class="whatsapp-btn">Contactanos</a>
+        </div>
+      </section>
+      <!-- ******** productos *********** -->
+      <section class="productos" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos-flex">
+            <div class="producto-card" data-producto="Sinfín para Mixers">
+                <img src="./imagenes/sinfin-meta.png" alt="Sinfín para Mixers">
+                <h3>Sinfín para Mixers</h3>
+                <p>Medidas: .</p>
+            </div>
+            <div class="producto-card" data-producto="Sinfín para Monotolvas">
+                <img src="./imagenes/sinfin-chico.jpeg" alt="Sinfín para Monotolvas">
+                <h3>Sinfín para Monotolvas</h3>
+                <p>Medidas:</p>
+            </div>
+            <div class="producto-card" data-producto="Sinfín para Cosechadoras">
+                <img src="./imagenes/Sinfin-rojo.jpeg" alt="Sinfín para Cosechadoras">
+                <h3>Sinfín para Cosechadoras</h3>
+                <p>A medida.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Pop-up -->
+    <div id="popup-overlay" class="popup-overlay">
+      <div id="popup-content" class="popup-content">
+          <span id="popup-close" class="popup-close" aria-label="cerrar pop up">&times;</span>
+          <p id="popup-text"></p>
+          <!-- Imagen pequeña del producto se añadirá dinámicamente aquí -->
+          <a id="popup-whatsapp-link" class="popup-whatsapp-btn" href="#" target="_blank" aria-label="Enviar WhatsApp">Enviar mensaje por WhatsApp</a>
+      </div>
+  </div>   
+      <!-- ************ ventajas **************-->
+      <section id="ventajas" class="ventajas-section">
+        <div class="container">
+            <h2>¿Por Qué Elegir METALSIN?</h2>
+            <div class="ventajas-grid">
+                <div class="ventaja-card">
+                  <i class="bi bi-patch-check"></i>
+                    <h3>Calidad Superior</h3>
+                    <p>Utilizamos los mejores materiales para garantizar durabilidad y rendimiento en cada sinfín.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-rulers"></i>
+                    <h3>Personalización a Medida</h3>
+                    <p>Fabricamos sinfines de acuerdo a las especificaciones exactas de tus necesidades agrícolas.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-gem"></i>
+                    <h3>Años de Experiencia</h3>
+                    <p>Con más de 20 años en la industria, sabemos cómo entregar los mejores resultados.</p>
+                </div>
+                <div class="ventaja-card">
+                  <i class="bi bi-person-fill-gear"></i>
+                    <h3>Servicio Postventa</h3>
+                    <p>Ofrecemos un soporte continuo para asegurarnos de que tu sinfín opere al máximo rendimiento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+       <!-- /********* videos *********/ -->
+       <section id="videos" class="videos-section">
+        <div class="container">
+            <h2>Vea Nuestros Productos en Acción</h2>
+            <div class="videos-grid">
+                <div class="video-card">
+                    <video controls>
+                        <source src="./videos/sinfines.webm" type="video/mp4">
+                        Tu navegador no soporta la reproducción de videos.
+                    </video>
+                    <h3>Sinfín en Operación</h3>
+                    <p>Observe cómo nuestros sinfines funcionan de manera eficiente en condiciones reales.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-------------------- ubicación ------------------------------------------->
+    <div class="ubicacion-container" id="ubicacion">
+      <h2>Dónde estamos?</h2>
+      <div class="local" style="padding-block: 20px;">
+        <i class="bi bi-geo-alt"></i>
+        <address>Igualdad 1230, Río Tercero, Córdoba. Argentina.</address>
+      </div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.7995174667863!2d-64.09615092464648!3d-32.18268053371277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cd6f3ea6f7fe33%3A0xeed74696fbb8aed4!2sMengo%20embalajes!5e0!3m2!1ses-419!2sar!4v1724549526107!5m2!1ses-419!2sar" width="360" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+<!-- ************* preguntas frecuentas **************** -->
+
+      <section class="faq" id="faq">
+        <div>
+          <h2 class="faq-header">Preguntas frecuentes</h2>
+          <div>
+            <div>
+              <details>
+                <summary>
+                  ¿Qué tipos de sinfines fabrica Metalsin?
+                </summary>
+                <p>
+                  Metalsin fabrica sinfines para mixers verticales y horizontales, monotolvas y cosechadoras de todas las marcas. Ofrecemos una amplia gama de diámetros y espesores para adaptarnos a las necesidades específicas de cada cliente.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Pueden fabricar sinfines personalizados según mis necesidades?</summary>
+                <p>
+                  Sí, en Metalsin ofrecemos servicios de personalización para asegurarnos de que los sinfines cumplan exactamente con sus especificaciones. Desde el diseño hasta la producción, trabajamos estrechamente con usted para garantizar que el producto final satisfaga sus necesidades.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Qué materiales utilizan en la fabricación de los sinfines?</summary>
+                <p>
+                  Utilizamos materiales de alta calidad, como acero al carbono y acero inoxidable, dependiendo de las especificaciones y el uso previsto del sinfín. Esto garantiza durabilidad, resistencia al desgaste y un rendimiento óptimo en condiciones exigentes.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Cuánto tiempo tarda la producción de un sinfín?</summary>
+                <p>
+                  El tiempo de producción varía según el nivel de personalización y la cantidad solicitada. Sin embargo, trabajamos para cumplir con plazos razonables y siempre informamos a nuestros clientes sobre el tiempo estimado de entrega al momento de realizar el pedido.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Ofrecen servicios de reparación o mantenimiento de sinfines?</summary>
+                <p>
+                  Sí, Metalsin ofrece servicios de reparación y mantenimiento para garantizar que sus sinfines sigan funcionando de manera eficiente. Nuestro equipo está capacitado para manejar cualquier tipo de reparación y proporcionar mantenimiento preventivo para prolongar la vida útil de los equipos.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Cuál es la garantía de los sinfines fabricados por Metalsin?</summary>
+                <p>
+                  Todos nuestros sinfines vienen con una garantía de 12 meses contra defectos de fabricación. Nos comprometemos a ofrecer productos de alta calidad y a brindar soporte postventa para cualquier problema que pueda surgir.
+                </p>
+              </details>
+            </div>
+            <div>
+              <details>
+                <summary>¿Cómo puedo solicitar un presupuesto para un sinfín?</summary>
+                <p>
+                  Puede solicitar un presupuesto comunicándose con nosotros a través de nuestro formulario de contacto en la página web, enviando un correo electrónico a correo@metalsin.com o directamente a través de nuestro botón de WhatsApp. Uno de nuestros representantes le atenderá y le proporcionará un presupuesto detallado basado en sus necesidades específicas.
+                </p>
+              </details>
+            </div>
+          </div>
+        </div>
+        <img src="./imagenes/pallets.jpg" alt="">
+      </section>
+
+      <!--------------------------------- FOOTER ------------------------------->
+
+      <footer>
+        <div class="footer-title" id="contacto">
+          <h2>Contactanos</h2>
+        </div>
+        <div class="footer-body">
+          <div class="footer-sec-1">
+            <div class="contacto">
+              <div>
+                <h3>Teléfonos</h3>
+                <a
+                  href="https://wa.me/5493571457431?text=¡Hola!+Quiero+hacer+una+consulta."
+                  target="_blank" aria-label="Enviar WhatsApp"
+                  >3571-539003</a
+                >
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:metalsin@gmail.com">metalsin@gmail.com</a></p>
+            </div>
+              <div class="local">
+                <i class="bi bi-geo-alt"></i>
+                <address>Igualdad 1251, Río Tercero, Córdoba. Argentina.</address>
+              </div>
+            </div>
+            <div class="redes">
+              <h2>Redes</h2>
+              <div class="redes-iconos">
+                <a
+                  href="https://wa.me/5493571457431?text=¡Hola!+Quiero+hacer+una+consulta."
+                  target="_blank" aria-label="Enviar WhatsApp"
+                >
+                  <i class="bi bi-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/marcelodelavedoba/" target="_blank" aria-label="Ver página de instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+          
+      </footer>
+      <a href="https://wa.me/5493571457431?text=¡Hola!+Quiero+hacer+una+consulta." class="whatsapp-float" target="_blank">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+    <script defer>
+      AOS.init();
+    </script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>
