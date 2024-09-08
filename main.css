@@ -492,6 +492,23 @@ footer {
 .redes-iconos i {
   background: transparent;
 }
+.firma {
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  background: transparent;
+}
+.firma p {
+  font-family: 'Roboto Mono', monospace;
+}
+.firma a {
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.firma a:hover {
+  text-decoration: underline;
+}
 
 /******************************************************************************************/
 /*****************************************************************************************/
@@ -745,19 +762,19 @@ footer {
   .footer-title {
     font-size: 30px;
   }
+  .footer-sec-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+  }
   .redes {
     margin-left: 50px;
+    height: 50px;
   }
   .footer-body {
     flex-direction: row;
     justify-content: space-between;
-  }
-  .footer-sec-1 {
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    background: transparent;
   }
 
   /******** videos *********/
