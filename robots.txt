@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://mengoembalajes.com.ar/sitemap.xml
+Sitemap: https://www.metalsin.com.ar/sitemap.xml
